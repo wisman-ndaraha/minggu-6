@@ -1,0 +1,16 @@
+<script>
+const seminar = 'ketiduran'; 
+
+const janjian = kondisi => new Promise((resolve, reject) => {
+if (kondisi === 'ketiduran') {
+    resolve('Yogi ketiduran lupa mengikuti seminar');
+} else {
+    reject('saya ingin mengikuti seminar');
+
+}
+});
+
+janjian(seminar)
+.then(res => console.log(res))
+.catch(err => console.error(err));
+</script>

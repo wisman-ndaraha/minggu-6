@@ -1,0 +1,22 @@
+{
+  "name": "minggu-6",
+  "version": "1.0.0",
+  "description": "belajar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisman-ndaraha/Tugas-kk-RISMAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisman-ndaraha/Tugas-kk-RISMAN/issues"
+  },
+  "homepage": "https://github.com/wisman-ndaraha/Tugas-kk-RISMAN#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
